@@ -1,3 +1,10 @@
-minikube start --nodes <number> -p <cluster_name>
+#INSTALLING KUBECTL
+winget install -e --id Kubernetes.kubectl
+
+#Installing minikube
+https://minikube.sigs.k8s.io/docs/start/?arch=%2Fwindows%2Fx86-64%2Fstable%2F.exe+download
+
+#Creating a Kubernets Cluster
+#minikube start --nodes <number> -p <cluster_name>
 
 minikube start --nodes 3 -p localcluster1
