@@ -1,0 +1,3 @@
+minikube start --nodes <number> -p <cluster_name>
+
+minikube start --nodes 3 -p localcluster1
